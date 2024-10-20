@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bewerbung bei Weingarten</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('dein-bild-url.jpg'); /* Hier das Bild-URL einfügen */
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+        header {
+            background-color: rgba(128, 0, 32, 0.8);
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparente Kästen */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px); /* Für den verschwommenen Effekt */
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section-title {
+            margin: 0;
+            color: #800020;
+            border-bottom: 2px solid #800020;
+            padding-bottom: 10px;
+            font-size: 1.5em;
+        }
+        .content {
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #800020;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #b30030;
+        }
+    </style>
+</head>
+<body>
+<form
+  action="https://formspree.io/f/xpwzwwao"
+  method="POST"
+>
+  <label>
+<input class="INPT-Feedback-1" placeholder="Dein Name" type="text" id="name" name="name" required="">
+<div class="line"></div>
+<input class="INPT-Feedback-1" placeholder="Dein Name" type="text" id="name" name="name" required="">
+<div class="line"></div>
+<input class="INPT-Feedback-1" placeholder="Dein Alter" type="text" id="name" name="name" required="">
+<div class="line"></div>
+<input class="INPT-Feedback-1" placeholder="Dein Geschlecht" type="text" id="name" name="name" required="">
+<div class="line"></div>
+<input class="INPT-Feedback-1" placeholder="Deine E-Mail Adresse" type="email" id="email" name="email" required="">
+<div class="line"></div>
+<input class="INPT-Feedback-1" placeholder="In welchem bereich bist du tätig?" type="text" id="name" name="name" required="">
+<div class="line"></div>
+<input class="INPT-Feedback-1" placeholder="Andere Informationen" type="text" id="name" name="name">
+  <button type="submit">Send</button>
+</form>
+
+</body>
